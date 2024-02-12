@@ -10,7 +10,7 @@ import { Figtree } from 'next/font/google'
 
 import './globals.css'
 import Sidebar from '@/components/sidebar';
-
+ 
 
 const font = Figtree({ subsets: ['latin'] })
 
