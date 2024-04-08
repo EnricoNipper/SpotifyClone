@@ -23,25 +23,26 @@ export async function POST(
       email: user?.email || ''
     });
 
-    const session = await stripe.checkout.sessions.create({
+    
+    const session = await stripe.checkout.sessions.create({ 
       payment_method_types: ['card'],
       billing_address_collection: 'required',
       customer,
-      line_items: [
-        {
-          price: price.id,
-          quantity
-        }
-      ],
+      line_items: [{
+        price: price.id,
+        quantity
+      }],
+
       mode: 'subscription',
       allow_promotion_codes: true,
-      subscription_data: {
-        trial_from_plan: true,
-        metadata
+      subscription_data:{ 
+        trial_period_days:7 ,
+      metadata
       },
       success_url: `${getURL()}/account`,
       cancel_url: `${getURL()}/`
-    });
+      });
+      
 
     return NextResponse.json({ sessionId: session.id });
   } catch (err: any) {
