@@ -1,10 +1,5 @@
 import Stripe from 'stripe';
 
-declare module 'use-sound' {
-  export default function useSound(sound: any, options?: any): any;
-}
-
-
 export interface Song {
   id: string;
   user_id: string;
