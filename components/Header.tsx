@@ -37,7 +37,7 @@ const Header: React.FC<HeaderProps> = ({
         if (error){
            toast.error(error.message);
         } else {
-            toast.success(`Logged out!`)
+            toast.success(`Desconectado!`)
         }
 }
     return ( 
@@ -131,7 +131,7 @@ const Header: React.FC<HeaderProps> = ({
                         <Button
                         onClick={handleLogout}
                         className="bg-white px-6 py-2">
-                            Logout
+                            Sair
                         </Button>
                         <Button
                         onClick={() => router.push(`/account`)}
@@ -152,7 +152,7 @@ const Header: React.FC<HeaderProps> = ({
                    font-medium
                    "
                    >
-                    Sign up
+                    Inscrever-se
                 </Button>
             </div>
             <div>
@@ -165,7 +165,7 @@ const Header: React.FC<HeaderProps> = ({
                    
                    "
                    >
-                    Log in
+                    Conecte-se
                 </Button>
             </div>
             </>

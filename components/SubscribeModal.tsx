@@ -45,12 +45,12 @@ const SubscribeModal: React.FC<SubscribeModalProps> = ({
     setPriceIdLoading(price.id);
     if (!user) {
       setPriceIdLoading(undefined);
-      return toast.error('Must be logged in');
+      return toast.error('Deve estar logado');
     }
 
     if (subscription) {
       setPriceIdLoading(undefined);
-      return toast('Already subscribed');
+      return toast('Já é subscribed');
     }
 
     try {
@@ -93,7 +93,7 @@ const SubscribeModal: React.FC<SubscribeModalProps> = ({
               disabled={isLoading || price.id === priceIdLoading}
               className="mb-4"
             >
-              {`Subscribe for ${formatPrice(price)} a ${price.interval}`}
+              {`Subscribe por  ${formatPrice(price)}`}
             </Button>
           ))
         })}
@@ -111,8 +111,8 @@ const SubscribeModal: React.FC<SubscribeModalProps> = ({
 
   return (
     <Modal
-      title="Only for premium users"
-      description="Listen to music with Spotify Premium"
+      title="Apenas para usuários premium"
+      description="Ouça música com Spotify Premium"
       isOpen={subscribeModal.isOpen}
       onChange={onChange}
     >

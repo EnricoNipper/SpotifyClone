@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Título:
+Clone do Spotify
 
-## Getting Started
+Descrição:
+Este é um projeto que visa aplicar meus estudos ao desenvolver funções essenciais presentes em praticamente todos os aplicativos e sites.
 
-First, run the development server:
+Screenshots ou Gifs Animados:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+Contato:
+Email: enricovicenzo@gmail.com
+LinkedIn: https://www.linkedin.com/in/enrico-vicenzo/
+Screenshots ou Gifs Animados:
 
-To learn more about Next.js, take a look at the following resources:
+Instalação:
+Este projeto foi inicializado com Next.js utilizando o comando create-next-app.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Começando:
+Para iniciar o servidor de desenvolvimento, execute o seguinte comando: npm run dev. O servidor local padrão estará disponível em http://localhost:3000.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Tecnologias Utilizadas:
 
-## Deploy on Vercel
+Dependências:
+@radix-ui/react-dialog
+@radix-ui/react-slider
+@stripe/stripe-js
+@supabase/auth-helpers-nextjs
+@supabase/auth-helpers-react
+@supabase/auth-ui-react
+@supabase/auth-ui-shared
+@supabase/supabase-js
+encoding
+helpers
+next
+punycode
+query-string
+react
+react-dom
+react-hook-form
+react-hot-toast
+react-icons
+react-slider
+react-spinners
+second
+stripe
+tailwind-merge
+uniqid
+use-sound
+zustand
+node
+react
+react-dom
+uniqid
+autoprefixer
+eslint-config-next
+postcss
+supabase
+tailwindcss
+typescript
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+Contato:
+
+Email: enricovicenzo@gmail.com
+LinkedIn: https://www.linkedin.com/in/enrico-vicenzo/
+
